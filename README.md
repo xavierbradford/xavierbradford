@@ -17,9 +17,9 @@ My favourite problem was robot localization, and at different times we incorpora
 
 I also used cameras to **visually locate game pieces** on the ground, and filtered these camera updates to gather **persistent positions and velocities** for these game pieces.
 
-<img src="images/frc-robot.png" alt="a photo of our FIRST Robotics team's 2025 robot"/>
+<img src="images/frc-robot.png" alt="a photo of our FIRST Robotics team's 2025 robot" height=400px/>
 
-<img src="images/frc-banner.png" alt="a photo of our FIRST Robotics team winning an event"/>
+<img src="images/frc-banner.png" alt="a photo of our FIRST Robotics team winning an event" height=400px/>
 
 ### [Firework (Rust Minecraft Server)](https://github.com/frc5687/2023-swerret)
 
@@ -34,7 +34,8 @@ Features include:
 - **Multithreaded** client event and server tick handling
 - An implementation of the Glide and the Battle minigames from Minecraft: Legacy Console Edition
 
-<img src="images/earthful.png" alt="a screenshot of marine debris data on a map"/>
+<img src="images/rust-minecraft-server.png" alt="dataflow diagram of Rust Minecraft Server" height=400px/>
+<img src="images/glide.png" alt="a screenshot of the Glide minigame" height=400px/>
 
 ### [Earthful (Marine Debris Visualizer)](https://github.com/xavierbradford/earthful)
 
@@ -48,7 +49,7 @@ Features include:
 - Location- and time-based filters (arbitrary polygon, circle, etc.)
 - **Queries processed in <5ms** (500-1000x improvement over existing NOAA dashboard)
 
-<img src="images/earthful.png" alt="a screenshot of marine debris data on a map"/>
+<img src="images/earthful.png" alt="a screenshot of marine debris data on a map" height=400px/>
 
 ### [Snowed In (Multiplayer Web Game)](https://github.com/xavierbradford/snowed-in)
 
@@ -58,7 +59,7 @@ I worked with @numericly to create a 2d multiplayer sandbox web game using Socke
 
 I also made the game's **pixel art and sound effects.**
 
-<img src="images/snowed-in.png" alt="a screenshot of some friends building together in Snowed In"/>
+<img src="images/snowed-in.png" alt="a screenshot of some friends building together in Snowed In" height=400px/>
 
 ### Logical Circuit Playground
 
@@ -68,6 +69,6 @@ I had a great time playing with [Logisim Evolution](https://github.com/logisim-e
 
 Users can build larger logical circuits out of logic gates, creating arbitrarily complex logic or even wire gates in cycles to make memory, counters, etc.
 
-<img src="images/logical-circuit-playground.png" alt="a screenshot of a circuit made in Logical Circuit Playground"/>
+<img src="images/logical-circuit-playground.png" alt="a screenshot of a circuit made in Logical Circuit Playground" height=400px/>
 
 *Note: CPSC210 rules do not allow making class project code public.*
