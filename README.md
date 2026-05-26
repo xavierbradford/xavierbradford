@@ -61,6 +61,24 @@ I also made the game's **pixel art and sound effects.**
 
 <img src="images/snowed-in.png" alt="a screenshot of some friends building together in Snowed In" style="max-height: 400px;"/>
 
+### [UMaine CVAR Lab Internship](https://github.com/xavierbradford/merits-arm-control)
+
+`python`, `computer vision`, `robotics`
+
+I spent six weeks working in a robotics lab at University of Maine on a set of vision-based grasping demos.
+
+Throughout my time in the lab, I explored three approaches to grasp generation:
+
+- <details><summary><strong>3DOF grasping with point clustering</strong></summary>
+    Point clouds from RealSense camera are filtered by colour then clustered. A grasp is executed top-down at the center of the cluster.</details>
+- <details><summary><strong>6DOF grasping with a 3D CNN</strong></summary>
+    [Volumetric Grasping Network: Real-time 6 DOF Grasp Detection in Clutter](https://arxiv.org/abs/2101.01132) uses a 3D CNN to predict grasps given a TSDF (truncated signed distance function). I also combined this with YOLOv8 to automate object sorting.</details>
+- <details><summary><strong>4DOF grasping with polygon fitting</strong></summary>
+    This approach uses OpenCV's polygon detection along with colour filtering and polygon refining to generate grasp positions for toy blocks. This achieved a remarkably high success rate and so I used it to make an automatic tic-tac-toe playing robot!</details>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Byp9bvo9qYw?si=zR4zyGlNFuptLMa3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
 ### Logical Circuit Playground
 
 `java`, `software design/oop`, `computation`
