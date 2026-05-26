@@ -1,6 +1,6 @@
 ## Hi, I'm Xavier!
 
-I'm a second-year computer science student at UBC, and I'd like to take this space to showcase some projects I'm proud of:
+I'm a second-year computer science student at UBC, and I'd like to use this space to showcase some projects I'm proud of:
 
 ### FIRST Robotics [(2025)](https://github.com/frc5687/2025-robot), [(2024)](https://github.com/frc5687/2024-robot), [(2023 onboarding)](https://github.com/frc5687/2023-swerret)
 
