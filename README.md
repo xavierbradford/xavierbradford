@@ -2,6 +2,26 @@
 
 I'm a second-year computer science student at UBC, and I'd like to use this space to showcase some projects I'm proud of:
 
+### [UMaine CVAR Lab Internship](https://github.com/xavierbradford/merits-arm-control)
+
+`python`, `computer vision`, `robotics`
+
+I spent six weeks working in a robotics lab at University of Maine on a set of vision-based grasping demos. 🎥 [Watch a video demo here!](https://www.youtube.com/watch?v=Byp9bvo9qYw)
+
+Throughout my time in the lab, I explored three approaches to grasp generation:
+
+- **3DOF grasping with point clustering**
+    RGBD pixels from the RealSense camera are filtered by colour then clustered. A grasp is executed top-down at the center of the cluster.
+- **6DOF grasping with a 3D CNN**
+    [Volumetric Grasping Network: Real-time 6 DOF Grasp Detection in Clutter](https://arxiv.org/abs/2101.01132) uses a 3D CNN to predict the success rate of grasps given a TSDF (truncated signed distance function) of the scene. I also combined this with YOLOv8 to automate object sorting.
+- **4DOF grasping with polygon fitting**
+    This approach uses OpenCV's polygon detection along with colour filtering and polygon refining to generate grasp positions for toy blocks. This achieved a remarkably high success rate so I used it to make an automatic tic-tac-toe playing robot!
+
+<a href="https://www.youtube.com/watch?v=Byp9bvo9qYw">
+<img src="images/youtube-embed-thumbnail.png" style="max-height: 400px;"/>
+</a>
+
+
 ### FIRST Robotics [(2025)](https://github.com/frc5687/2025-robot), [(2024)](https://github.com/frc5687/2024-robot), [(2023 onboarding)](https://github.com/frc5687/2023-swerret)
 
 `java`, `robotics`, `computer vision`
@@ -37,6 +57,18 @@ Features include:
 <img src="images/rust-minecraft-server.png" alt="dataflow diagram of Rust Minecraft Server" style="max-height: 400px;"/>
 <img src="images/glide.png" alt="a screenshot of the Glide minigame" style="max-height: 400px;"/>
 
+### Logical Circuit Playground
+
+`java`, `software design/oop`, `computation`
+
+I had a great time playing with [Logisim Evolution](https://github.com/logisim-evolution/logisim-evolution) in my CPSC 121 class, and for my CPSC 210 project I want to make a logical circuit simulator of my own.
+
+Users can build larger logical circuits out of logic gates, creating arbitrarily complex logic or even wire gates in cycles to make memory, counters, etc.
+
+<img src="images/logical-circuit-playground.png" alt="a screenshot of a circuit made in Logical Circuit Playground" style="max-height: 400px;"/>
+
+*Note: CPSC210 rules do not allow making class project code public.*
+
 ### [Earthful (Marine Debris Visualizer)](https://github.com/xavierbradford/earthful)
 
 `ts`, `svelte`, `geospatial`
@@ -60,35 +92,3 @@ I worked with @numericly to create a 2d multiplayer sandbox web game using Socke
 I also made the game's **pixel art and sound effects.**
 
 <img src="images/snowed-in.png" alt="a screenshot of some friends building together in Snowed In" style="max-height: 400px;"/>
-
-### [UMaine CVAR Lab Internship](https://github.com/xavierbradford/merits-arm-control)
-
-`python`, `computer vision`, `robotics`
-
-I spent six weeks working in a robotics lab at University of Maine on a set of vision-based grasping demos. 🎥 [Watch a video demo here!](https://www.youtube.com/watch?v=Byp9bvo9qYw)
-
-Throughout my time in the lab, I explored three approaches to grasp generation:
-
-- **3DOF grasping with point clustering**
-    RGBD pixels from the RealSense camera are filtered by colour then clustered. A grasp is executed top-down at the center of the cluster.
-- **6DOF grasping with a 3D CNN**
-    [Volumetric Grasping Network: Real-time 6 DOF Grasp Detection in Clutter](https://arxiv.org/abs/2101.01132) uses a 3D CNN to predict the success rate of grasps given a TSDF (truncated signed distance function) of the scene. I also combined this with YOLOv8 to automate object sorting.
-- **4DOF grasping with polygon fitting**
-    This approach uses OpenCV's polygon detection along with colour filtering and polygon refining to generate grasp positions for toy blocks. This achieved a remarkably high success rate so I used it to make an automatic tic-tac-toe playing robot!
-
-<a href="https://www.youtube.com/watch?v=Byp9bvo9qYw">
-<img src="images/youtube-embed-thumbnail.png" style="max-height: 400px;"/>
-</a>
-
-
-### Logical Circuit Playground
-
-`java`, `software design/oop`, `computation`
-
-I had a great time playing with [Logisim Evolution](https://github.com/logisim-evolution/logisim-evolution) in my CPSC 121 class, and for my CPSC 210 project I want to make a logical circuit simulator of my own.
-
-Users can build larger logical circuits out of logic gates, creating arbitrarily complex logic or even wire gates in cycles to make memory, counters, etc.
-
-<img src="images/logical-circuit-playground.png" alt="a screenshot of a circuit made in Logical Circuit Playground" style="max-height: 400px;"/>
-
-*Note: CPSC210 rules do not allow making class project code public.*
