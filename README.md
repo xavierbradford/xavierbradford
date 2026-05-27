@@ -76,6 +76,10 @@ Throughout my time in the lab, I explored three approaches to grasp generation:
 - **4DOF grasping with polygon fitting**
     This approach uses OpenCV's polygon detection along with colour filtering and polygon refining to generate grasp positions for toy blocks. This achieved a remarkably high success rate so I used it to make an automatic tic-tac-toe playing robot!
 
+<a href="https://www.youtube.com/watch?v=Byp9bvo9qYw">
+<img src="images/youtube-embed-thumbnail.png" style="max-height: 400px;"/>
+</a>
+
 
 ### Logical Circuit Playground
 
