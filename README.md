@@ -87,8 +87,8 @@ Features include:
 
 `ts`, `socket.io`, `networking`
 
-I worked with @numericly to create a 2d multiplayer sandbox web game using Socket.IO. I wrote code for the game's visuals and **rigidbody and collision simulation.**
+I worked with @numericly to create a 2d multiplayer sandbox web game using Socket.IO. I wrote code for the game's tileset system and rigidbody and collision simulation.
 
-I also made the game's **pixel art and sound effects.**
+I also made the game's pixel art and sound effects.
 
 <img src="images/snowed-in.png" alt="a screenshot of some friends building together in Snowed In" style="max-height: 400px;"/>
