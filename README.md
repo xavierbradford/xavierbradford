@@ -10,12 +10,9 @@ I spent six weeks working in a robotics lab at University of Maine on a set of v
 
 Throughout my time in the lab, I explored three approaches to grasp generation:
 
-- **3DOF grasping with point clustering**
-    RGBD pixels from the RealSense camera are filtered by colour then clustered. A grasp is executed top-down at the center of the cluster.
-- **6DOF grasping with a 3D CNN**
-    [Volumetric Grasping Network: Real-time 6 DOF Grasp Detection in Clutter](https://arxiv.org/abs/2101.01132) uses a 3D CNN to predict the success rate of grasps given a TSDF (truncated signed distance function) of the scene. I also combined this with YOLOv8 to automate object sorting.
-- **4DOF grasping with polygon fitting**
-    This approach uses OpenCV's polygon detection along with colour filtering and polygon refining to generate grasp positions for toy blocks. This achieved a remarkably high success rate so I used it to make an automatic tic-tac-toe playing robot!
+- **3DOF grasping with point clustering**: RGBD pixels from the RealSense camera are filtered by colour then clustered. A grasp is executed top-down at the center of the cluster.
+- **6DOF grasping with a 3D CNN**: [Volumetric Grasping Network: Real-time 6 DOF Grasp Detection in Clutter](https://arxiv.org/abs/2101.01132) uses a 3D CNN to predict the success rate of grasps given a TSDF (truncated signed distance function) of the scene. I also combined this with YOLOv8 to automate object sorting.
+- **4DOF grasping with polygon fitting**: This approach uses OpenCV's polygon detection along with colour filtering and polygon refining to generate grasp positions for toy blocks. This achieved a remarkably high success rate so I used it to make an automatic tic-tac-toe playing robot!
 
 <a href="https://www.youtube.com/watch?v=Byp9bvo9qYw" target="_blank">
 <img src="images/youtube-embed-thumbnail.png" style="max-height: 400px;"/>
