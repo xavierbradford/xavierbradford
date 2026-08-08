@@ -38,7 +38,7 @@ I also used cameras to **visually locate game pieces** on the ground, and filter
 
 <img src="images/frc-banner.png" alt="a photo of our FIRST Robotics team winning an event" style="max-height: 400px;"/>
 
-### [Firework (Rust Minecraft Server)](https://github.com/frc5687/2023-swerret)
+### [Firework (Rust Minecraft Server)](https://github.com/numericly/firework)
 
 `rust`, `networking`, `concurrency`
 
