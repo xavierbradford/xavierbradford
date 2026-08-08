@@ -74,9 +74,9 @@ I created a faster and more versatile alternative to NOAA's existing Marine Debr
 
 Features include:
 
-- An interactive map of **over 8 million pieces of marine debris** running at 60fps on low-end hardware
+- An interactive map of **over 10 million pieces of marine debris** running at 60fps on low-end hardware
 - Location- and time-based filters (arbitrary polygon, circle, etc.)
-- **Queries processed in <5ms** (500-1000x improvement over existing NOAA dashboard)
+- Queries processed in $`\sim`$50ms, a 100x improvement over existing NOAA dashboard)
 
 <img src="images/earthful.png" alt="a screenshot of marine debris data on a map" style="max-height: 400px;"/>
 
